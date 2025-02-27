@@ -13,11 +13,11 @@ import dynamic from "next/dynamic";
 // Also install this npm i --save-dev @types/react-lottie
 
 // Instead of a direct import:
-// const Lottie = dynamic(() => import("react-lottie"), {
-//   ssr: false,
-// });
+const Lottie = dynamic(() => import("react-lottie"), {
+  ssr: false,
+});
 
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 
 // ...
 const BackgroundGradientAnimation = dynamic(
