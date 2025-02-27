@@ -28,7 +28,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
+          des="Once we agree on the plan, I dive into
           coding. From initial sketches to polished code, I keep you updated
           every step of the way"
         >
@@ -48,11 +48,10 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Launch & Ongoing Support"
           icon={<AceternityIcon order="Phase 3" />}
           des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up"
+          I'll deploy your website and continue to keep it updated"
         >
           <CanvasRevealEffect
             animationSpeed={3}

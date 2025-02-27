@@ -99,7 +99,7 @@ export const projects = [
     des: "A clean, calming, and professional website tailored for a psychiatrist, emphasizing clarity, ease of navigation, and a soothing design approach.",
     img: "/proj4.webp",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-    link: "https://lukejobsearch.netlify.app/",
+    link: "https://tracyjonespsychiatrist.vercel.app/",
   },
   {
     id: 5,
@@ -107,7 +107,7 @@ export const projects = [
     des: "A lively and engaging job search platform designed with playful animations, ensuring a fun yet functional user experience for job seekers.",
     img: "/proj5.webp",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-    link: "/ui.apple.com",
+    link: "https://lukejobsearch.netlify.app/",
   },
   {
     id: 6,
@@ -236,13 +236,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/LRSORRENTI",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/luke_sorrenti",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/luke-sorrenti/",
   },
 ];

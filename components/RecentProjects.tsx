@@ -65,7 +65,7 @@ const RecentProjects = () => {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-purple hover:underline"
+                  className="flex items-center text-purple hover:text-white transition 2s ease-in-out"
                 >
                   <p className="lg:text-xl md:text-xs text-sm">
                     Check Live Site
