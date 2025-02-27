@@ -12,12 +12,19 @@ import dynamic from "next/dynamic";
 
 // Also install this npm i --save-dev @types/react-lottie
 
-// Instead of a direct import:
-const Lottie = dynamic(() => import("react-lottie"), {
-  ssr: false,
-});
+// NOTE LUKE for actual deployment uncomment the
+// below dynamic import but for dev work use the 
+// : // import Lottie from "react-lottie";
 
-// import Lottie from "react-lottie";
+// USE BELOW FOR DEPLOYMENT
+// Instead of a direct import:
+// const Lottie = dynamic(() => import("react-lottie"), {
+//   ssr: false,
+// });
+
+// comment out the below before pushing to 
+// deployment, and uncomment above
+import Lottie from "react-lottie";
 
 // ...
 const BackgroundGradientAnimation = dynamic(
