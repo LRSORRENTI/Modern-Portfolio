@@ -1,6 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Projects", link: "#proj" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -68,39 +68,70 @@ export const gridItems = [
     spareImg: "",
   },
 ];
-
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Visually Striking Aquarium Website",
+    des: "Dive into an immersive underwater experience with this animated Next.js project, featuring fluid interactions and a serene oceanic theme.",
+    img: "/proj1.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://bright-aquarium.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Eye-Catching Golf Club Website",
+    des: "A sleek and modern website designed for a golf club, combining elegant visuals with smooth animations for a premium browsing experience.",
+    img: "/proj2.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://rustling-oaks-golf-course.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Vibrant Night Club Website",
+    des: "An electrifying website with a neon-infused aesthetic, capturing the high-energy vibe of a modern nightclub through bold visuals and dynamic effects.",
+    img: "/proj3.webp",
+    iconLists: ["/astro.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://night-pulse.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Minimalist Psychiatrist Website",
+    des: "A clean, calming, and professional website tailored for a psychiatrist, emphasizing clarity, ease of navigation, and a soothing design approach.",
+    img: "/proj4.webp",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+    link: "https://lukejobsearch.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Animated Job Search Website",
+    des: "A lively and engaging job search platform designed with playful animations, ensuring a fun yet functional user experience for job seekers.",
+    img: "/proj5.webp",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg"],
     link: "/ui.apple.com",
+  },
+  {
+    id: 6,
+    title: "Stylish & Sleek SEO Website",
+    des: "A cutting-edge SEO agency website with a bold, modern aesthetic, strategically crafted to highlight services and maximize online engagement.",
+    img: "/proj6.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://improve-seo-ai.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Monochrome Photographer Website",
+    des: "A striking portfolio site for a photographer, featuring a rugged, high-contrast monochrome theme that amplifies the drama and storytelling in each image.",
+    img: "/proj7.webp",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+    link: "https://dante-photographer.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Elegantly Designed Restaurant Website",
+    des: "A refined and luxurious restaurant website with a visually rich, high-end design, meticulously crafted to captivate food enthusiasts and fine dining lovers.",
+    img: "/proj8.webp",
+    iconLists: ["/html.svg", "/bootstrap.svg", "/js.svg"],
+    link: "https://pup-pastries-future.netlify.app/",
   },
 ];
 
@@ -200,7 +231,6 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
   },
 ];
-
 
 export const socialMedia = [
   {
