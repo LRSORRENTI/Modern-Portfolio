@@ -13,9 +13,11 @@ import dynamic from "next/dynamic";
 // Also install this npm i --save-dev @types/react-lottie
 
 // Instead of a direct import:
-const Lottie = dynamic(() => import("react-lottie"), {
-  ssr: false,
-});
+// const Lottie = dynamic(() => import("react-lottie"), {
+//   ssr: false,
+// });
+
+import Lottie from "react-lottie";
 
 // ...
 const BackgroundGradientAnimation = dynamic(
@@ -63,8 +65,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["HTML", "CSS", "JavaScript"];
+  const rightLists = ["NextJS", "WordPress", "Laravel"];
 
   const [copied, setCopied] = useState(false);
 
@@ -78,7 +80,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "luke-sorrenti@outlook.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
