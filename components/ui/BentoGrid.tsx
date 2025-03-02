@@ -3,7 +3,8 @@ import { IoCopyOutline } from "react-icons/io5";
 
 import { cn } from "@/lib/utils";
 
-// import { BackgroundGradientAnimation } from "./GradientBg";
+
+import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
@@ -18,19 +19,21 @@ import dynamic from "next/dynamic";
 
 // USE BELOW FOR DEPLOYMENT
 // Instead of a direct import:
-// const Lottie = dynamic(() => import("react-lottie"), {
-//   ssr: false,
-// });
+const Lottie = dynamic(() => import("react-lottie"), {
+  ssr: false,
+});
 
 // comment out the below before pushing to 
-// deployment, and uncomment above
-import Lottie from "react-lottie";
+// deployment, and uncomment above, below is 
+// used during dev work
 
-// ...
-const BackgroundGradientAnimation = dynamic(
-  () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
-  { ssr: false } // <--- This disables SSR for the component
-);
+// USE FOR DEV
+// import Lottie from "react-lottie";
+
+// const BackgroundGradientAnimation = dynamic(
+//   () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
+//   { ssr: false } // <--- This disables SSR for the component
+// );
 
 export const BentoGrid = ({
   className,
@@ -72,8 +75,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["HTML", "CSS", "JavaScript"];
-  const rightLists = ["NextJS", "WordPress", "Laravel"];
+  const leftLists = ["HTML", "CSS", "JavaScript", "MySQL", "React"];
+  const rightLists = ["NextJS", "WordPress", "Tailwind CSS",  "SQL"];
 
   const [copied, setCopied] = useState(false);
 

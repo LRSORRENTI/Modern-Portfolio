@@ -23,7 +23,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out today and let&apos;s discuss how to build your dream project
         </p>
-        <a href="mailto:">
+        <a href="mailto:luke-sorrenti@outlook.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -39,8 +39,10 @@ const Footer = () => {
             <div
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:bg-slate-800"
-            > <a href={info.link} target="_blank">
-              <img src={info.img} alt="icons" width={20} height={20} />
+            >
+              {" "}
+              <a href={info.link} target="_blank">
+                <img src={info.img} alt="icons" width={20} height={20} />
               </a>
             </div>
           ))}

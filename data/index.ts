@@ -138,35 +138,36 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaboration was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. The enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Luke's expertise and creativity brought our vision to life. He was professional, responsive, and went above and beyond to ensure our website exceeded expectations.",
+    name: "Sarah Mitchell",
+    title: "Lead Marketer BrightWave Marketing",
   },
   {
     quote:
-      "Collaboration was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. The enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Luke was seamless. His attention to detail and ability to implement complex features with ease truly set him apart. Highly recommend his services!",
+    name: "James Carter",
+    title: "Founder of Carter & Co. Consulting",
   },
   {
     quote:
-      "Collaboration was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. The enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Luke is an outstanding developer! His problem-solving skills and innovative approach made our site not only visually stunning but also highly functional.",
+    name: "Emily Rodriguez",
+    title: "Product Manager at TechNova Solutions",
   },
   {
     quote:
-      "Collaboration was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. The enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From start to finish, Luke demonstrated professionalism and deep technical expertise. Our website runs flawlessly thanks to his skill and dedication.",
+    name: "David Thompson",
+    title: "Owner of Horizon Digital",
   },
   {
     quote:
-      "Collaboration was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. The enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Luke transformed our outdated website into a modern, user-friendly platform. His passion for web development is evident in every aspect of his work.",
+    name: "Olivia Bennett",
+    title: "Marketing Manager at Elevate Brands",
   },
 ];
+
 
 export const companies = [
   {
