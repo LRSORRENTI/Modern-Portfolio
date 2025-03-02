@@ -3,8 +3,6 @@ import { IoCopyOutline } from "react-icons/io5";
 
 import { cn } from "@/lib/utils";
 
-
-import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
@@ -14,17 +12,18 @@ import dynamic from "next/dynamic";
 // Also install this npm i --save-dev @types/react-lottie
 
 // NOTE LUKE for actual deployment uncomment the
-// below dynamic import but for dev work use the 
+// below dynamic import but for dev work use the
 // : // import Lottie from "react-lottie";
 
 // USE BELOW FOR DEPLOYMENT
+import { BackgroundGradientAnimation } from "./GradientBg";
 // Instead of a direct import:
 const Lottie = dynamic(() => import("react-lottie"), {
   ssr: false,
 });
 
-// comment out the below before pushing to 
-// deployment, and uncomment above, below is 
+// comment out the below before pushing to
+// deployment, and uncomment above, below is
 // used during dev work
 
 // USE FOR DEV
@@ -76,7 +75,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["HTML", "CSS", "JavaScript", "MySQL", "React"];
-  const rightLists = ["NextJS", "WordPress", "Tailwind CSS",  "SQL"];
+  const rightLists = ["NextJS", "WordPress", "Tailwind CSS", "SQL"];
 
   const [copied, setCopied] = useState(false);
 
