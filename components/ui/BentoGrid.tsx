@@ -16,23 +16,23 @@ import dynamic from "next/dynamic";
 // : // import Lottie from "react-lottie";
 
 // USE BELOW FOR DEPLOYMENT
-import { BackgroundGradientAnimation } from "./GradientBg";
-// Instead of a direct import:
-const Lottie = dynamic(() => import("react-lottie"), {
-  ssr: false,
-});
+// import { BackgroundGradientAnimation } from "./GradientBg";
+// // Instead of a direct import:
+// const Lottie = dynamic(() => import("react-lottie"), {
+//   ssr: false,
+// });
 
 // comment out the below before pushing to
 // deployment, and uncomment above, below is
 // used during dev work
 
 // USE FOR DEV
-// import Lottie from "react-lottie";
+import Lottie from "react-lottie";
 
-// const BackgroundGradientAnimation = dynamic(
-//   () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
-//   { ssr: false } // <--- This disables SSR for the component
-// );
+const BackgroundGradientAnimation = dynamic(
+  () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
+  { ssr: false } // <--- This disables SSR for the component
+);
 
 export const BentoGrid = ({
   className,
